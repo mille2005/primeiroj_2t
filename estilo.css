@@ -1,29 +1,70 @@
 body {
-  background: rgb(127, 21, 226);
+  background: pink;
 }
-h1{
+h1 {
   text-align: center;
 }
 .caixa1 {
   position: absolute;
-  background: purple;
+  background: grey;
   width: 200px;
   height: 200px;
   right: 0px;
-  top: 10px;
+  bottom:0;
 }
-.caixa2{
+.caixa2 {
   position: absolute;
-  background: rgb(26, 187, 152);
+  background: rgb(126, 26, 241);
   width: 200px;
   height: 200px;
-  right: 0px;
-  bottom: 0px;
+  right: 0;
+  bottom: 205px;
 }
 
+.caixa3 {
+  position: absolute;
+  background: rgb(230, 46, 168);
+  height: 200px;
+  right: 205px;
+  bottom:0;
+}
 .menuPrincipal{
-  position:relative
-  width: 100%;
-  height: 80px;
-  background: purple;
+   position: absolute;
+   width: 100%;
+   height: 45px;
+   background: rgb(157, 170, 187);
+   top: 0;
+   left: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+li a:hover {
+  color: rgb(255, 255, 255);
+  background: black;
+}
+#gato {
+  width: 10%;
+}
+.caixaGato {
+  position:absolute;
+  top: 40%px;
+  background:purple ;
+  width: 98%;
+  
+
 }
