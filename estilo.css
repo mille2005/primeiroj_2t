@@ -62,9 +62,24 @@ li a:hover {
 }
 .caixaGato {
   position:absolute;
-  top: 40%px;
+  top: 45px;
   background:purple ;
-  width: 98%;
-  
-
+  width: 90%;
+  height: 165px;
+  margin: 20px;
+  border-color: aqua;
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.caixaGato2 {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 300px;
+  height: 165px;
+  display: flex;
+  justify-content: end;
 }
