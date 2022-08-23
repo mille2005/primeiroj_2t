@@ -60,10 +60,10 @@ li a:hover {
 #gato {
   width: 10%;
 }
-.caixaGato {
+.caixaarquitetura {
   position:absolute;
   top: 45px;
-  background:purple ;
+  background:rgb(216, 190, 216) ;
   width: 90%;
   height: 165px;
   margin: 20px;
@@ -89,5 +89,5 @@ li a:hover {
   width: 100%;
   height: 35%;
   background: blank;
-  color: blank; 
+  coloṛ: blank; 
 }
