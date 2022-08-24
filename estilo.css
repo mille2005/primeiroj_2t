@@ -1,5 +1,5 @@
 body {
-  background: blueviolet;
+  background: rgb(157, 11, 230);
 }
 h1 {
   text-align: center;
@@ -85,4 +85,19 @@ li a:hover {
 h1 {
   text-align: center;
 }
-
+.desenho {
+  text-align: center;
+}
+.conteúdo2 {
+  right: 30px;
+  top: 10;
+}
+.desenho2 {
+  text-align: center;
+}
+.desenho3 {
+  text-align: center;
+}
+.desenho4 {
+  text-align: center;
+}
