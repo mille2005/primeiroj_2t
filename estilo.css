@@ -57,7 +57,7 @@ li a:hover {
   color: rgb(255, 255, 255);
   background: black;
 }
-#gato {
+#casa1 {
   width: 10%;
 }
 .caixaGato2 {
@@ -79,16 +79,19 @@ li a:hover {
 .arquitetura {
   text-align: center;
 }
-h1 {
-  text-align: center;
-}
-.caixaarquitetura {
+.caixadesenho {
   position: absolute;
   top: 45px;
-  height: 165px;
+  background: rgb(7, 98, 172);
   width: 90%;
-  margin: 10px;
+  height: 165px;
+  margin: 20px;
+  border-color: rgb(172, 74, 218);
+  border-width: 20px;
+  border-style: solid;
+  padding: 10px;
+  left: 18px;
+  display: flex;
+  justify-content: center;
 }
-.sobrearquitetura {
-  text-align: center;
-}
+
